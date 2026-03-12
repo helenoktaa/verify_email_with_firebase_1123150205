@@ -94,7 +94,7 @@ Langkah-langkah:
 
 ### Firebase Project Settings
 
-![Firebase Project Settings](assets/images/firebase-project-settings.png)
+![Firebase Project Settings](assets/images/firebase-project-setting.png)
 
 ---
 
