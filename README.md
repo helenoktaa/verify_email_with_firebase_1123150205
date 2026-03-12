@@ -102,3 +102,18 @@ Kemudian salin atau simpan nilai:
 
 API Key ini akan digunakan pada request Postman.
 
+---
+
+## 4. Setup Postman Environment
+
+Buka aplikasi Postman dan buat environment baru.
+
+Contoh variable:
+
+| Variable | Value |
+|--------|------|
+| FIREBASE_API_KEY | API key dari Firebase |
+| ID_TOKEN | token dari login |
+
+![Postman Environment](assets/images/postman-environment.png)
+
