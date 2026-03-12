@@ -10,3 +10,18 @@
 
 ## Overview
 Dokumentasi ini menjelaskan implementasi verifikasi email menggunakan Firebase Authentication dan pengujian API menggunakan Postman.
+
+---
+
+## 1. Setup Firebase Project
+
+Langkah pertama adalah membuat project baru di Firebase Console.
+
+1. Buka https://console.firebase.google.com
+![Firebase dashboard](assets/images/firebase-dashboard.png)
+2. Klik **Add Project**
+3. Masukkan nama project
+4. Klik **Continue** sampai selesai
+![Create Project](assets/images/create-project.png)
+
+
