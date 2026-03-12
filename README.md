@@ -22,6 +22,16 @@ Langkah pertama adalah membuat project baru di Firebase Console.
 2. Klik **Add Project**
 3. Masukkan nama project
 4. Klik **Continue** sampai selesai
-![Create Project](assets/images/create-project.png)
+---
+
+### Tampilan pembuatan project
+
+![Create Firebase Project](assets/images/create-project.png)
+
+---
+
+Setelah project berhasil dibuat, kita akan diarahkan ke dashboard Firebase.
+
+![Halaman Project Firebase](assets/images/dashboard-project.png)
 
 
