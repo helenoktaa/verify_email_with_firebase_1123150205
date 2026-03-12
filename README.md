@@ -190,3 +190,30 @@ POST https://identitytoolkit.googleapis.com/v1/accounts:sendOobCode?key={{FIREBA
 
 ![Body](assets/images/verifikasi-sukses.png)
 
+---
+
+## 7. Check Email Verification Status
+
+Endpoint:
+
+POST https://identitytoolkit.googleapis.com/v1/accounts:lookup?key={{FIREBASE_API_KEY}}
+
+### Body Request
+
+{
+ "idToken":"{{ID_TOKEN}}"
+}
+
+Jika email sudah diverifikasi maka response:
+
+emailVerified: true
+
+### Email send
+
+![Email](assets/images/email-sukses.png)
+
+### Verify done
+
+![Verify](assets/images/verif-done.png)
+
+
