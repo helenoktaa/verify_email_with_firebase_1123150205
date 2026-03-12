@@ -167,3 +167,26 @@ Periksa kembali request yang dikirim melalui Postman.
 
 ![Register Gagal](assets/images/regist-gagal.png)
 
+---
+
+## 6. Send Email Verification
+
+Endpoint:
+
+POST https://identitytoolkit.googleapis.com/v1/accounts:sendOobCode?key={{FIREBASE_API_KEY}}
+
+### Body Request
+
+{
+ "requestType":"VERIFY_EMAIL",
+ "idToken":"{{ID_TOKEN}}"
+}
+
+### Body
+
+![Body](assets/images/verif-email-body.png)
+
+### Verify Success
+
+![Body](assets/images/verifikasi-sukses.png)
+
