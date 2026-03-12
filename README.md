@@ -216,4 +216,16 @@ emailVerified: true
 
 ![Verify](assets/images/verif-done.png)
 
+### Cek Status Verifikasi Email
+
+### Body
+
+![Verify](assets/images/verify-email-check.png)
+
+### Email Verified
+
+![Email Verified](assets/images/done.png)
+
+
+
 
