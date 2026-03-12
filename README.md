@@ -117,3 +117,26 @@ Contoh variable:
 
 ![Postman Environment](assets/images/postman-environment.png)
 
+---
+
+## 5. Register User via Firebase API
+
+Endpoint:
+
+POST https://identitytoolkit.googleapis.com/v1/accounts:signUp?key={{FIREBASE_API_KEY}}
+
+### Body Request
+
+{
+ "email":"user@email.com",
+ "password":"12345678",
+ "returnSecureToken":true
+}
+
+### Postman Headers
+
+![Headers](assets/images/headers.png)
+
+### Postman Body (raw JSON)
+
+![Body](assets/images/body.png)
